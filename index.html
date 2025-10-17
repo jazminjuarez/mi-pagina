@@ -1,0 +1,104 @@
+@'
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glamour Shop - Carrito de Maquillaje</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:;base64,=">
+  <script type="module" src="./dist/main.js"></script>
+
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo"><h1>💄 Glamour Shop</h1></div>
+        <nav class="nav">
+          <button id="btn-catalogo" class="nav-link active">Catálogo</button>
+          <button id="btn-carrito" class="nav-link carrito-btn">🛒 Carrito <span id="carrito-contador" class="carrito-badge">0</span></button>
+          <button id="btn-login" class="nav-link">Iniciar Sesión</button>
+          <button id="btn-registro" class="nav-link">Registrarse</button>
+          <button id="btn-logout" class="nav-link" style="display:none;">Cerrar Sesión</button>
+        </nav>
+        <div id="user-info" class="user-info" style="display:none;"></div>
+      </div>
+    </div>
+  </header>
+
+  <section id="seccion-catalogo" class="seccion">
+    <div class="container">
+      <div class="catalogo-header">
+        <h2>Nuestros Productos</h2>
+        <div class="filtros">
+          <div class="filtro-grupo">
+            <label for="filtro-categoria">Categoría:</label>
+            <select id="filtro-categoria" class="filtro-select"><option value="Todos">Todos</option></select>
+          </div>
+          <div class="filtro-grupo">
+            <input id="input-busqueda" class="input-busqueda" placeholder="🔍 Buscar productos..." />
+          </div>
+        </div>
+      </div>
+      <div id="productos-grid" class="productos-grid"></div>
+    </div>
+  </section>
+
+  <section id="seccion-carrito" class="seccion hidden">
+    <div class="container">
+      <h2>Mi Carrito de Compras</h2>
+      <div class="carrito-contenido">
+        <div id="carrito-items" class="carrito-items"></div>
+        <div class="carrito-resumen">
+          <h3>Resumen del Pedido</h3>
+          <div class="resumen-linea"><span>Total:</span><span id="carrito-total" class="total-precio">$0.00</span></div>
+          <button id="btn-finalizar-compra" class="btn-finalizar">Finalizar Compra</button>
+          <p class="texto-info">* Debes iniciar sesión para realizar la compra</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="seccion-login" class="seccion hidden">
+    <div class="container">
+      <div class="form-container">
+        <h2>Iniciar Sesión</h2>
+        <form id="form-login" class="form">
+          <div class="form-grupo"><label for="login-email">Email:</label><input id="login-email" name="email" type="email" required /></div>
+          <div class="form-grupo"><label for="login-password">Contraseña:</label><input id="login-password" name="password" type="password" required /></div>
+          <button type="submit" class="btn-submit">Iniciar Sesión</button>
+          <p class="form-texto">¿No tienes cuenta? <a href="#" id="link-registro">Regístrate aquí</a></p>
+          <div class="demo-info"><p><strong>Usuario de prueba:</strong></p><p>Email: maria@example.com</p><p>Contraseña: 123456</p></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="seccion-registro" class="seccion hidden">
+    <div class="container">
+      <div class="form-container">
+        <h2>Crear Cuenta</h2>
+        <form id="form-registro" class="form">
+          <div class="form-grupo"><label for="registro-nombre">Nombre Completo:</label><input id="registro-nombre" name="nombre" required /></div>
+          <div class="form-grupo"><label for="registro-email">Email:</label><input id="registro-email" name="email" type="email" required /></div>
+          <div class="form-grupo"><label for="registro-password">Contraseña:</label><input id="registro-password" name="password" type="password" required minlength="6" /></div>
+          <div class="form-grupo"><label for="registro-confirmar">Confirmar Contraseña:</label><input id="registro-confirmar" name="confirmarPassword" type="password" required minlength="6" /></div>
+          <button type="submit" class="btn-submit">Registrarse</button>
+          <p class="form-texto">¿Ya tienes cuenta? <a href="#" id="link-login">Inicia sesión aquí</a></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; Carrito de Maquillaje</p>
+      <p>JAZMIN JUAREZ JIMENEZ</p>
+    </div>
+  </footer>
+
+  <script type="module" src="./dist/main.js"></script>
+</body>
+</html>
+'@ | Set-Content -Encoding UTF8 index.html

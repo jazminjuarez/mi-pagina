@@ -1,0 +1,14 @@
+﻿{
+  "name": "carrito-maquillaje",
+  "version": "1.0.0",
+  "description": "Carrito de compras de maquillaje",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "serve": "http-server ."
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "http-server": "^14.1.1"
+  }
+}

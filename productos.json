@@ -1,0 +1,66 @@
+﻿[
+    {
+        "id":  1,
+        "nombre":  "Labial Mate Rosa",
+        "descripcion":  "Labial de larga duración con acabado mate",
+        "imagen":  "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=300\u0026h=300\u0026fit=crop",
+        "precio":  299,
+        "categoria":  "Labios"
+    },
+    {
+        "id":  2,
+        "nombre":  "Base de Maquillaje",
+        "descripcion":  "Cobertura natural y duradera",
+        "imagen":  "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=300\u0026h=300\u0026fit=crop",
+        "precio":  450,
+        "categoria":  "Rostro"
+    },
+    {
+        "id":  3,
+        "nombre":  "Rubor Compacto",
+        "descripcion":  "Rubor en polvo con tono rosado natural",
+        "imagen":  "https://images.unsplash.com/photo-1598452963314-b09f397a5c48?w=300\u0026h=300\u0026fit=crop",
+        "precio":  280,
+        "categoria":  "Rostro"
+    },
+    {
+        "id":  4,
+        "nombre":  "Máscara de Pestañas",
+        "descripcion":  "Volumen y longitud extra",
+        "imagen":  "https://images.unsplash.com/photo-1631214524020-7e18db9a8f92?w=300\u0026h=300\u0026fit=crop",
+        "precio":  320,
+        "categoria":  "Ojos"
+    },
+    {
+        "id":  5,
+        "nombre":  "Paleta de Sombras",
+        "descripcion":  "12 tonos neutros y brillantes",
+        "imagen":  "https://images.unsplash.com/photo-1583241800698-9c431785d29b?w=300\u0026h=300\u0026fit=crop",
+        "precio":  550,
+        "categoria":  "Ojos"
+    },
+    {
+        "id":  6,
+        "nombre":  "Delineador de Ojos",
+        "descripcion":  "Delineador líquido negro intenso",
+        "imagen":  "https://images.unsplash.com/photo-1617897903246-719242758050?w=300\u0026h=300\u0026fit=crop",
+        "precio":  250,
+        "categoria":  "Ojos"
+    },
+    {
+        "id":  7,
+        "nombre":  "Iluminador Facial",
+        "descripcion":  "Brillo natural para pómulos",
+        "imagen":  "https://images.unsplash.com/photo-1596704017254-9b121068ec31?w=300\u0026h=300\u0026fit=crop",
+        "precio":  380,
+        "categoria":  "Rostro"
+    },
+    {
+        "id":  8,
+        "nombre":  "Kit de Brochas",
+        "descripcion":  "Set de 10 brochas profesionales",
+        "imagen":  "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=300\u0026h=300\u0026fit=crop",
+        "precio":  650,
+        "categoria":  "Accesorios"
+    }
+]
